@@ -6,6 +6,7 @@ const io=socket(server)
 
 app.use(express.static('public'))
 
-io.sockets.on('connection',(socket)=>{
+// You can also use io.sockets.on
+io.on('connection',(socket)=>{
     console.log(socket.id);
 })
