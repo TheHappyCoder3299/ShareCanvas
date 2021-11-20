@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "name": "sharecanvas",
+  "version": "1.0.0",
+  "description": "Shareable canvas drawing application ",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheHappyCoder3299/ShareCanvas.git"
+  },
+  "author": "Anwit Mondal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheHappyCoder3299/ShareCanvas/issues"
+  },
+  "homepage": "https://github.com/TheHappyCoder3299/ShareCanvas#readme"
+}
